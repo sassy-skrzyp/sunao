@@ -159,7 +159,7 @@ export default function HeroSection() {
             }} whileTap={{
               scale: 0.98
             }} style={{
-              marginTop: "32px"
+              marginTop: "16px"
             }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
                 Try it for free
               </motion.button>
