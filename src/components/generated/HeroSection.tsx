@@ -108,8 +108,12 @@ export default function HeroSection() {
               ease: "easeOut"
             }} style={{
               letterSpacing: '-0.05em',
-              fontWeight: "500"
-            }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own every<br data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />customer interaction</motion.h1>
+              fontWeight: "500",
+              width: "900px",
+              maxWidth: "900px",
+              textAlign: "left",
+              justifyContent: "flex-start"
+            }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own every customer interaction<br data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />Own every customer interaction</motion.h1>
               
               <motion.div className="space-y-2" initial={{
               opacity: 0,
@@ -122,10 +126,10 @@ export default function HeroSection() {
               delay: 0.4,
               ease: "easeOut"
             }} data-magicpath-id="16" data-magicpath-path="HeroSection.tsx">
-                <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
-                  Generate authentic, professional responses<br data-magicpath-id="18" data-magicpath-path="HeroSection.tsx" />
-                  to any customer concern.
-                </p>
+                <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" data-magicpath-id="17" data-magicpath-path="HeroSection.tsx" style={{
+                width: "900px",
+                maxWidth: "900px"
+              }}>Generate authentic, professional responses to any customer concern.<br data-magicpath-id="18" data-magicpath-path="HeroSection.tsx" />Generate authentic, professional responses to any customer concern.</p>
               </motion.div>
               
               <motion.button className="bg-pink-400 hover:bg-pink-500 text-black px-10 py-4 rounded-full text-lg font-normal transition-all duration-200 shadow-sm hover:shadow-md" initial={{
