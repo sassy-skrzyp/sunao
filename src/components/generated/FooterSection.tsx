@@ -8,87 +8,87 @@ export default function FooterSection() {
     product: [{
       name: "Features",
       href: "#features",
-      mpid: "f12bea0d-a588-46a6-a3d4-ec80c1f62dcb"
+      mpid: "30f6d377-03a5-4878-919f-e2a59cec7a9a"
     }, {
       name: "Benefits",
       href: "#benefits",
-      mpid: "ba5f5e43-c1d5-46bb-93b1-f78deaea684d"
+      mpid: "8302242c-f7bc-49a3-8dd1-9ee0505f26d0"
     }, {
       name: "Pricing",
       href: "#pricing",
-      mpid: "aa02d217-969d-44cb-8182-040cbbdd164f"
+      mpid: "5356df5f-bffd-409e-b42d-795c6ba078e8"
     }, {
       name: "API Documentation",
       href: "#",
-      mpid: "5924eaed-9723-4922-8f31-d5d5589563f0"
+      mpid: "19ba8442-725a-470b-9759-7a26c9b917ef"
     }, {
       name: "Integrations",
       href: "#",
-      mpid: "1ac8bff3-2d08-4e0f-bd18-307a0f55aea9"
+      mpid: "565ea3d2-ee2e-48f8-8567-9ef9084d7295"
     }],
     company: [{
       name: "About",
       href: "#",
-      mpid: "f600ee1f-dc52-49b1-8a66-278b221556eb"
+      mpid: "260f5ac5-8a23-44e1-beab-e075d18e9ec3"
     }, {
       name: "Blog",
       href: "#",
-      mpid: "99a5ba22-6e26-4030-a28c-6673862760ee"
+      mpid: "26f09dd3-fde0-4dfb-a67e-75f8d877e16d"
     }, {
       name: "Careers",
       href: "#",
-      mpid: "02f5e84c-e6e7-4f4c-afda-b18555cee7f2"
+      mpid: "9c185b34-7cc3-41cf-81d2-a42d1abbda91"
     }, {
       name: "Press",
       href: "#",
-      mpid: "60041380-a077-4687-9eeb-b4f3826e7cee"
+      mpid: "9deeec22-1a42-405d-9504-650609e1d406"
     }, {
       name: "Contact",
       href: "#",
-      mpid: "24b091ef-03e2-40db-b9df-2dc15a60a655"
+      mpid: "4e876692-747b-4f4a-b84a-4e945abce500"
     }],
     support: [{
       name: "Help Center",
       href: "#",
-      mpid: "400c1af9-1a7e-4390-9f2f-b1e52d77d046"
+      mpid: "0037c1de-a27b-402e-b0a1-7e21ecb32282"
     }, {
       name: "Community",
       href: "#",
-      mpid: "8fe0cf3c-30c0-4025-bf33-0758f765a2c9"
+      mpid: "d6c33d85-3f99-4b9f-bec5-01356f4797c0"
     }, {
       name: "Status",
       href: "#",
-      mpid: "d1ffb934-397f-4cd9-9558-d452b345cebf"
+      mpid: "b159b610-417e-47cf-8dae-39c48ebcb016"
     }, {
       name: "Security",
       href: "#",
-      mpid: "40a3063b-bbc2-4cbb-8748-d9ad88b910ef"
+      mpid: "3d26a167-53d6-4e46-978c-c6df28955022"
     }, {
       name: "Privacy",
       href: "#",
-      mpid: "7a1de987-8cdd-44b6-827d-eda307ecf113"
+      mpid: "a9621eb3-7a43-49b1-8a75-8a4ef2068eb1"
     }]
   };
   const socialLinks = [{
     icon: <Twitter size={24} data-magicpath-id="0" data-magicpath-path="FooterSection.tsx" />,
     href: "#",
     label: "Twitter",
-    mpid: "d75bbcbf-1059-4ac6-beda-7f081eca978e"
+    mpid: "03c53b60-2ccc-4a11-9a31-98fff6c3de0a"
   }, {
     icon: <Linkedin size={24} data-magicpath-id="1" data-magicpath-path="FooterSection.tsx" />,
     href: "#",
     label: "LinkedIn",
-    mpid: "f7d2c150-4af6-4b56-9dd7-4f1b1731d0df"
+    mpid: "cbdf6cef-81b6-4b79-827c-9e219d9493a6"
   }, {
     icon: <Github size={24} data-magicpath-id="2" data-magicpath-path="FooterSection.tsx" />,
     href: "#",
     label: "GitHub",
-    mpid: "37a86b6e-740f-4fed-8259-dcb6a0e5f92b"
+    mpid: "df739bb6-eeae-4676-8f8b-73478768ba4f"
   }, {
     icon: <Mail size={24} data-magicpath-id="3" data-magicpath-path="FooterSection.tsx" />,
     href: "#",
     label: "Email",
-    mpid: "508ed62e-db71-4b93-974b-e31264a7c688"
+    mpid: "af8de6a5-23cf-49e4-a6d7-6247411d69df"
   }] as any[];
   return <footer className="bg-gray-900 text-white py-24 px-8 md:px-16 lg:px-24" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
@@ -124,7 +124,7 @@ export default function FooterSection() {
               y: -2
             }} whileTap={{
               scale: 0.95
-            }} aria-label={social.label} data-magicpath-uuid={(social as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknwon" data-magicpath-id="11" data-magicpath-path="FooterSection.tsx">
+            }} aria-label={social.label} data-magicpath-uuid={(social as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="11" data-magicpath-path="FooterSection.tsx">
                   {social.icon}
                 </motion.a>)}
             </div>

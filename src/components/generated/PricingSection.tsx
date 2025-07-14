@@ -11,7 +11,7 @@ export default function PricingSection() {
     description: "Perfect for small teams getting started",
     features: ["Up to 1,000 responses/month", "Basic AI responses", "Email integration", "Standard support", "Basic analytics"],
     popular: false,
-    mpid: "11a3f7a6-3f00-495a-83ba-93f4937baed4"
+    mpid: "2672b56e-03ac-40c3-af00-65da7ca093db"
   }, {
     name: "Professional",
     price: "99",
@@ -19,7 +19,7 @@ export default function PricingSection() {
     description: "Ideal for growing businesses",
     features: ["Up to 10,000 responses/month", "Advanced AI with learning", "Multi-platform integration", "Priority support", "Advanced analytics", "Custom brand voice", "Team collaboration"],
     popular: true,
-    mpid: "42de0724-f00d-480e-9327-a39ebb340e12"
+    mpid: "bbf25182-5aa0-454d-ba34-508d5db4d193"
   }, {
     name: "Enterprise",
     price: "Custom",
@@ -27,7 +27,7 @@ export default function PricingSection() {
     description: "For large organizations with specific needs",
     features: ["Unlimited responses", "Custom AI training", "Full API access", "Dedicated support", "Custom integrations", "Advanced security", "SLA guarantee", "White-label options"],
     popular: false,
-    mpid: "eab1ed7c-0c30-4c39-ad1e-195cf0bcd03a"
+    mpid: "1ef99476-c17b-4d47-9e39-17687f19b208"
   }] as any[];
   return <section id="pricing" className="py-32 px-8 md:px-16 lg:px-24 bg-white" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
@@ -81,10 +81,10 @@ export default function PricingSection() {
               <div className="space-y-8" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-id="10" data-magicpath-path="PricingSection.tsx">
                 {/* Plan Header */}
                 <div className="space-y-4" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="PricingSection.tsx">
-                  <h3 className="text-2xl font-normal text-black" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="12" data-magicpath-path="PricingSection.tsx">
+                  <h3 className="text-2xl font-normal text-black" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="12" data-magicpath-path="PricingSection.tsx">
                     {plan.name}
                   </h3>
-                  <p className="text-gray-600" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:string" data-magicpath-id="13" data-magicpath-path="PricingSection.tsx">
+                  <p className="text-gray-600" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="13" data-magicpath-path="PricingSection.tsx">
                     {plan.description}
                   </p>
                 </div>
@@ -93,13 +93,13 @@ export default function PricingSection() {
                 <div className="space-y-2" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-id="14" data-magicpath-path="PricingSection.tsx">
                   <div className="flex items-baseline space-x-2" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-id="15" data-magicpath-path="PricingSection.tsx">
                     {plan.price !== "Custom" ? <>
-                        <span className="text-5xl font-normal text-black" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="price:string" data-magicpath-id="16" data-magicpath-path="PricingSection.tsx">
+                        <span className="text-5xl font-normal text-black" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="price:unknown" data-magicpath-id="16" data-magicpath-path="PricingSection.tsx">
                           ${plan.price}
                         </span>
-                        <span className="text-gray-600" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="period:string" data-magicpath-id="17" data-magicpath-path="PricingSection.tsx">
+                        <span className="text-gray-600" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="period:unknown" data-magicpath-id="17" data-magicpath-path="PricingSection.tsx">
                           /{plan.period}
                         </span>
-                      </> : <span className="text-5xl font-normal text-black" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="price:string" data-magicpath-id="18" data-magicpath-path="PricingSection.tsx">
+                      </> : <span className="text-5xl font-normal text-black" data-magicpath-uuid={(plan as any)["mpid"] ?? "unsafe"} data-magicpath-field="price:unknown" data-magicpath-id="18" data-magicpath-path="PricingSection.tsx">
                         {plan.price}
                       </span>}
                   </div>
