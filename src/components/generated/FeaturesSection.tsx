@@ -103,8 +103,7 @@ export default function FeaturesSection() {
       }} data-magicpath-id="8" data-magicpath-path="FeaturesSection.tsx">
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-semibold text-black mb-6 leading-tight whitespace-nowrap" style={{
           letterSpacing: '-0.06em'
-        }} data-magicpath-id="9" data-magicpath-path="FeaturesSection.tsx">Features that 
-            <span className="text-pink-500 font-medium" style={{
+        }} data-magicpath-id="9" data-magicpath-path="FeaturesSection.tsx">Features that deliver results<span className="text-pink-500 font-medium" style={{
             letterSpacing: '-0.06em'
           }} data-magicpath-id="10" data-magicpath-path="FeaturesSection.tsx">
               deliver results
