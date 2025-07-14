@@ -129,7 +129,11 @@ export default function HeroSection() {
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" style={{
                 width: "900px",
                 maxWidth: "900px"
-              }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">Generate authentic, professional responses to any customer concern.</p>
+              }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
+                  Generate authentic, professional responses to any customer concern.
+                  <br data-magicpath-id="18" data-magicpath-path="HeroSection.tsx" />
+                  Take control of your customer communications.
+                </p>
               </motion.div>
               
               <motion.button className="bg-pink-400 hover:bg-pink-500 text-black px-10 py-4 rounded-full text-lg font-normal transition-all duration-200 shadow-sm hover:shadow-md" initial={{
@@ -147,13 +151,13 @@ export default function HeroSection() {
               y: -2
             }} whileTap={{
               scale: 0.98
-            }} data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
+            }} data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
                 Try it for free
               </motion.button>
             </div>
 
             {/* Right side - Background image handles the illustration */}
-            <div className="relative h-96 lg:h-[500px]" data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
+            <div className="relative h-96 lg:h-[500px]" data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
               {/* This space is intentionally left for the background image to show through */}
             </div>
           </div>
