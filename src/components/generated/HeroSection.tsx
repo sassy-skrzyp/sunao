@@ -10,7 +10,7 @@ export default function HeroSection() {
     // Changed from 'center -100px' to 'center bottom' to crop from top instead
     backgroundRepeat: 'no-repeat',
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-    letterSpacing: '-0.05em'
+    letterSpacing: '-0.06em'
   }} data-magicpath-id="0" data-magicpath-path="HeroSection.tsx">
       {/* Navigation Bar */}
       <nav className="w-full px-8 md:px-16 lg:px-24 py-6 relative z-10" data-magicpath-id="1" data-magicpath-path="HeroSection.tsx">
@@ -25,11 +25,15 @@ export default function HeroSection() {
           duration: 0.6,
           ease: "easeOut"
         }} data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
-            <h2 className="text-xl font-normal text-gray-700" data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">sunao 素直</h2>
+            <h2 className="text-xl font-normal text-gray-700" style={{
+            letterSpacing: '-0.06em'
+          }} data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">sunao 素直</h2>
           </motion.div>
           
           <div className="hidden md:flex items-center space-x-16" data-magicpath-id="5" data-magicpath-path="HeroSection.tsx">
-            <motion.a href="#features" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" initial={{
+            <motion.a href="#features" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" style={{
+            letterSpacing: '-0.06em'
+          }} initial={{
             opacity: 0,
             y: -20
           }} animate={{
@@ -42,7 +46,9 @@ export default function HeroSection() {
           }} data-magicpath-id="6" data-magicpath-path="HeroSection.tsx">
               Features
             </motion.a>
-            <motion.a href="#benefits" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" initial={{
+            <motion.a href="#benefits" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" style={{
+            letterSpacing: '-0.06em'
+          }} initial={{
             opacity: 0,
             y: -20
           }} animate={{
@@ -55,7 +61,9 @@ export default function HeroSection() {
           }} data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
               Benefits
             </motion.a>
-            <motion.a href="#pricing" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" initial={{
+            <motion.a href="#pricing" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" style={{
+            letterSpacing: '-0.06em'
+          }} initial={{
             opacity: 0,
             y: -20
           }} animate={{
@@ -70,7 +78,9 @@ export default function HeroSection() {
             </motion.a>
           </div>
           
-          <motion.button className="text-pink-500 hover:text-pink-600 transition-colors duration-200 font-normal" initial={{
+          <motion.button className="text-pink-500 hover:text-pink-600 transition-colors duration-200 font-normal" style={{
+          letterSpacing: '-0.06em'
+        }} initial={{
           opacity: 0,
           y: -20
         }} animate={{
@@ -99,7 +109,7 @@ export default function HeroSection() {
             flexDirection: "column",
             display: "block"
           }} data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
-              <motion.h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[0.9] text-black" initial={{
+              <motion.h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[0.9] text-black" initial={{
               opacity: 0,
               y: 40
             }} animate={{
@@ -110,8 +120,8 @@ export default function HeroSection() {
               delay: 0.2,
               ease: "easeOut"
             }} style={{
-              letterSpacing: '-0.05em',
-              fontWeight: "500",
+              letterSpacing: '-0.06em',
+              fontWeight: "600",
               width: "900px",
               maxWidth: "900px",
               textAlign: "left",
@@ -137,7 +147,8 @@ export default function HeroSection() {
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" style={{
                 width: "900px",
                 maxWidth: "900px",
-                lineHeight: "1.5"
+                lineHeight: "1.5",
+                letterSpacing: '-0.06em'
               }} data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
                   Generate authentic, professional responses to any customer concern.
                   <br data-magicpath-id="19" data-magicpath-path="HeroSection.tsx" />
@@ -145,7 +156,9 @@ export default function HeroSection() {
                 </p>
               </motion.div>
               
-              <motion.button className="bg-pink-400 hover:bg-pink-500 text-black px-10 py-4 rounded-full text-lg font-normal transition-all duration-200 shadow-sm hover:shadow-md" initial={{
+              <motion.button className="bg-pink-400 hover:bg-pink-500 text-black px-10 py-4 rounded-full text-lg font-normal transition-all duration-200 shadow-sm hover:shadow-md" style={{
+              letterSpacing: '-0.06em'
+            }} initial={{
               opacity: 0,
               y: 30
             }} animate={{
@@ -160,8 +173,6 @@ export default function HeroSection() {
               y: -2
             }} whileTap={{
               scale: 0.98
-            }} style={{
-              marginTop: "0px"
             }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
                 Try it for free
               </motion.button>
