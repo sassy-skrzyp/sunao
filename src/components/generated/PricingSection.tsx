@@ -11,7 +11,7 @@ export default function PricingSection() {
     description: "Perfect for small teams getting started",
     features: ["Up to 1,000 responses/month", "Basic AI responses", "Email integration", "Standard support", "Basic analytics"],
     popular: false,
-    mpid: "758f1e20-a150-4817-8428-a1ea2f9f83b2"
+    mpid: "d692ff88-36e3-4798-a0a6-d29ed95f2b3a"
   }, {
     name: "Professional",
     price: "99",
@@ -19,7 +19,7 @@ export default function PricingSection() {
     description: "Ideal for growing businesses",
     features: ["Up to 10,000 responses/month", "Advanced AI with learning", "Multi-platform integration", "Priority support", "Advanced analytics", "Custom brand voice", "Team collaboration"],
     popular: true,
-    mpid: "3309daca-6272-4582-8843-1e94b6e63ae6"
+    mpid: "c222746d-467f-487e-8a20-2946a37c074c"
   }, {
     name: "Enterprise",
     price: "Custom",
@@ -27,7 +27,7 @@ export default function PricingSection() {
     description: "For large organizations with specific needs",
     features: ["Unlimited responses", "Custom AI training", "Full API access", "Dedicated support", "Custom integrations", "Advanced security", "SLA guarantee", "White-label options"],
     popular: false,
-    mpid: "e51dd9f2-4d49-43c3-9756-e152be72cf67"
+    mpid: "5efb17d1-b849-4d98-9348-3774d328ba3d"
   }] as any[];
   return <section id="pricing" className="py-32 px-8 md:px-16 lg:px-24 bg-white" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',

@@ -9,25 +9,25 @@ export default function BenefitsSection() {
     metric: "300%",
     title: "Faster Response Times",
     description: "Reduce customer wait times and improve satisfaction with instant, intelligent responses.",
-    mpid: "08d3de6b-4416-4cc7-9c50-8491ce2779b3"
+    mpid: "b98c1d3c-4570-47fa-8b3b-489837ffec5c"
   }, {
     icon: <Clock size={48} data-magicpath-id="1" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "24/7",
     title: "Always Available",
     description: "Never miss a customer inquiry with round-the-clock automated assistance.",
-    mpid: "db396008-ff31-41f2-9158-478aa0422697"
+    mpid: "7f5f5cf7-b0ef-40dc-ad4f-6a3c9000a98b"
   }, {
     icon: <Heart size={48} data-magicpath-id="2" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "95%",
     title: "Customer Satisfaction",
     description: "Maintain consistent, professional communication that customers love.",
-    mpid: "300806ce-c831-4041-b352-668a680a64a8"
+    mpid: "140ece95-11ac-490b-94ed-71653a8bcdbf"
   }, {
     icon: <Target size={48} data-magicpath-id="3" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "80%",
     title: "Time Saved",
     description: "Free up your team to focus on complex issues while AI handles routine inquiries.",
-    mpid: "d9ca0a0d-5c6e-43a6-abee-044eb9bc37fd"
+    mpid: "90e38e0d-3b43-4ea3-9133-18907bd7e40e"
   }] as any[];
   return <section id="benefits" className="py-32 px-8 md:px-16 lg:px-24 bg-gray-50" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',

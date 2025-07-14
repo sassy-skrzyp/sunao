@@ -8,32 +8,32 @@ export default function FeaturesSection() {
     icon: <MessageCircle size={32} data-magicpath-id="0" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Smart Responses",
     description: "AI-powered responses that understand context and maintain your brand voice across all customer interactions.",
-    mpid: "45d1a99d-ccbd-4968-bae9-99c094e9f029"
+    mpid: "ef52530f-9b2b-4e49-9ef0-4fdb5c8203ac"
   }, {
     icon: <Zap size={32} data-magicpath-id="1" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Instant Processing",
     description: "Real-time response generation that keeps your customers engaged without delays or waiting times.",
-    mpid: "80c5d41a-5b08-4ebf-80e5-2cf788cd3b2c"
+    mpid: "23b79cda-a1b8-47c2-aee1-48f479db6c77"
   }, {
     icon: <Globe size={32} data-magicpath-id="2" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Multi-Platform",
     description: "Seamless integration across email, chat, social media, and support platforms in one unified system.",
-    mpid: "6cbbf3b5-d193-403d-afdb-0eb0ed1e0695"
+    mpid: "9ed914b0-d9a7-43f5-8c24-1891680d86b7"
   }, {
     icon: <Shield size={32} data-magicpath-id="3" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Privacy First",
     description: "Enterprise-grade security with end-to-end encryption and compliance with global privacy standards.",
-    mpid: "521f2121-c0d7-422d-abd5-396acfde8fa7"
+    mpid: "db1c7a44-6b05-468a-9a17-b1ffe0ccb89d"
   }, {
     icon: <Brain size={32} data-magicpath-id="4" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Learning Engine",
     description: "Continuously improves response quality by learning from your successful customer interactions.",
-    mpid: "39cf8510-b639-4eb8-95b3-56659570c4b7"
+    mpid: "d1cff39b-8f37-4419-a4af-d0a251133e2d"
   }, {
     icon: <Users size={32} data-magicpath-id="5" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Team Collaboration",
     description: "Enable your entire team to maintain consistent, professional communication standards.",
-    mpid: "833733ba-9b49-41e7-a706-844fbe623eff"
+    mpid: "0f6b541e-0942-427b-a961-5908bc906c1d"
   }] as any[];
   return <section id="features" className="py-32 px-8 md:px-16 lg:px-24 bg-white" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
