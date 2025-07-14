@@ -95,10 +95,10 @@ export default function HeroSection() {
         <div className="max-w-7xl mx-auto" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center min-h-[65vh]" data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
             {/* Left Content */}
-            <div className="space-y-12 lg:space-y-16" data-magicpath-id="13" data-magicpath-path="HeroSection.tsx" style={{
+            <div className="space-y-12 lg:space-y-16" style={{
             display: "flex",
             flexDirection: "column"
-          }}>
+          }} data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
               <motion.h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[0.9] text-black" initial={{
               opacity: 0,
               y: 40
@@ -158,6 +158,8 @@ export default function HeroSection() {
               y: -2
             }} whileTap={{
               scale: 0.98
+            }} style={{
+              marginTop: "32px"
             }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
                 Try it for free
               </motion.button>
