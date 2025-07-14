@@ -6,7 +6,8 @@ export default function HeroSection() {
   return <div className="min-h-screen relative overflow-hidden" style={{
     backgroundImage: `url('https://cdn.midjourney.com/a6804604-8f31-468f-ad71-bdbf01efa3e2/0_0.png')`,
     backgroundSize: 'cover',
-    backgroundPosition: 'center top',
+    backgroundPosition: 'center -100px',
+    // Moved image up for 14" MacBook
     backgroundRepeat: 'no-repeat',
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     letterSpacing: '-0.05em'
@@ -124,8 +125,8 @@ export default function HeroSection() {
               ease: "easeOut"
             }} data-magicpath-id="16" data-magicpath-path="HeroSection.tsx">
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
-                  Generate authentic, professional responses to any customer concern.<br data-magicpath-id="18" data-magicpath-path="HeroSection.tsx" />
-                  Take control of your customer communications.
+                  Generate authentic, professional responses<br data-magicpath-id="18" data-magicpath-path="HeroSection.tsx" />
+                  to any customer concern.
                 </p>
               </motion.div>
               
