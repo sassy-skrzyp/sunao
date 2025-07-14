@@ -107,7 +107,8 @@ export default function HeroSection() {
               delay: 0.2,
               ease: "easeOut"
             }} style={{
-              letterSpacing: '-0.05em'
+              letterSpacing: '-0.05em',
+              fontWeight: "500"
             }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own every customer interaction<br data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />Own every customer interaction</motion.h1>
               
               <motion.div className="space-y-2" initial={{
