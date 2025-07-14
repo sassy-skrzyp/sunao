@@ -112,7 +112,10 @@ export default function HeroSection() {
               width: "900px",
               maxWidth: "900px",
               textAlign: "left",
-              justifyContent: "flex-start"
+              justifyContent: "flex-start",
+              paddingTop: "0px",
+              marginTop: "120px",
+              marginBottom: "24px"
             }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own <em data-magicpath-id="15" data-magicpath-path="HeroSection.tsx">every</em><br data-magicpath-id="16" data-magicpath-path="HeroSection.tsx" />customer interaction</motion.h1>
               
               <motion.div className="space-y-2" initial={{
