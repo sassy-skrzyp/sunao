@@ -95,7 +95,10 @@ export default function HeroSection() {
         <div className="max-w-7xl mx-auto" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center min-h-[65vh]" data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
             {/* Left Content */}
-            <div className="space-y-12 lg:space-y-16" data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
+            <div className="space-y-12 lg:space-y-16" data-magicpath-id="13" data-magicpath-path="HeroSection.tsx" style={{
+            display: "flex",
+            flexDirection: "column"
+          }}>
               <motion.h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[0.9] text-black" initial={{
               opacity: 0,
               y: 40
@@ -131,7 +134,8 @@ export default function HeroSection() {
             }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" style={{
                 width: "900px",
-                maxWidth: "900px"
+                maxWidth: "900px",
+                lineHeight: "1.5"
               }} data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
                   Generate authentic, professional responses to any customer concern.
                   <br data-magicpath-id="19" data-magicpath-path="HeroSection.tsx" />
