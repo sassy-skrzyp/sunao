@@ -108,10 +108,7 @@ export default function HeroSection() {
               ease: "easeOut"
             }} style={{
               letterSpacing: '-0.05em'
-            }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">
-                Own every<br data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />
-                customer interaction
-              </motion.h1>
+            }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own every customer interaction<br data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />Own every customer interaction</motion.h1>
               
               <motion.div className="space-y-2" initial={{
               opacity: 0,
