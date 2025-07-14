@@ -1,6 +1,10 @@
 import { useMemo } from 'react';
 import { Container, Theme } from './settings/types';
 import HeroSection from './components/generated/HeroSection';
+import FeaturesSection from './components/generated/FeaturesSection';
+import BenefitsSection from './components/generated/BenefitsSection';
+import PricingSection from './components/generated/PricingSection';
+import FooterSection from './components/generated/FooterSection';
 
 let theme: Theme = 'light';
 let container: Container = 'none';
@@ -18,7 +22,15 @@ function App() {
 
   const generatedComponent = useMemo(() => {
     // THIS IS WHERE THE TOP LEVEL GENRATED COMPONENT WILL BE RETURNED!
-    return <HeroSection />; // %EXPORT_STATEMENT%
+    return (
+      <>
+        <HeroSection />
+        <FeaturesSection />
+        <BenefitsSection />
+        <PricingSection />
+        <FooterSection />
+      </>
+    ); // %EXPORT_STATEMENT%
   }, []);
 
   if (container === 'centered') {
