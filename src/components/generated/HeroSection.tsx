@@ -6,8 +6,8 @@ export default function HeroSection() {
   return <div className="min-h-screen relative overflow-hidden" style={{
     backgroundImage: `url('https://cdn.midjourney.com/a6804604-8f31-468f-ad71-bdbf01efa3e2/0_0.png')`,
     backgroundSize: 'cover',
-    backgroundPosition: 'center -100px',
-    // Moved image up for 14" MacBook
+    backgroundPosition: 'center bottom',
+    // Changed from 'center -100px' to 'center bottom' to crop from top instead
     backgroundRepeat: 'no-repeat',
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     letterSpacing: '-0.05em'
