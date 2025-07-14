@@ -29,7 +29,7 @@ export default function HeroSection() {
           </motion.div>
           
           <div className="hidden md:flex items-center space-x-16" data-magicpath-id="5" data-magicpath-path="HeroSection.tsx">
-            <motion.a href="#features" className="text-gray-600 hover:text-gray-800 transition-colors duration-200 font-normal" initial={{
+            <motion.a href="#features" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" initial={{
             opacity: 0,
             y: -20
           }} animate={{
@@ -42,7 +42,7 @@ export default function HeroSection() {
           }} data-magicpath-id="6" data-magicpath-path="HeroSection.tsx">
               Features
             </motion.a>
-            <motion.a href="#benefits" className="text-gray-600 hover:text-gray-800 transition-colors duration-200 font-normal" initial={{
+            <motion.a href="#benefits" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" initial={{
             opacity: 0,
             y: -20
           }} animate={{
@@ -55,7 +55,7 @@ export default function HeroSection() {
           }} data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
               Benefits
             </motion.a>
-            <motion.a href="#pricing" className="text-gray-600 hover:text-gray-800 transition-colors duration-200 font-normal" initial={{
+            <motion.a href="#pricing" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" initial={{
             opacity: 0,
             y: -20
           }} animate={{
