@@ -10,28 +10,28 @@ export default function BenefitsSection() {
     title: "Faster Response Times",
     description: "Reduce customer wait times and improve satisfaction with instant, intelligent responses.",
     placeholder: "Chart Visualization",
-    mpid: "dec1e711-ceb9-47ae-b23d-47b07d331e3f"
+    mpid: "909140a9-bf47-4e99-adbb-c9d6b8bea44b"
   }, {
     icon: <Clock size={48} data-magicpath-id="1" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "24/7",
     title: "Always Available",
     description: "Never miss a customer inquiry with round-the-clock automated assistance.",
     placeholder: "Process Diagram",
-    mpid: "8a7e8be1-eacb-406e-8e93-698c9719a123"
+    mpid: "eb269d0e-2738-44b7-84d9-f2d7dd577ad2"
   }, {
     icon: <Heart size={48} data-magicpath-id="2" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "95%",
     title: "Customer Satisfaction",
     description: "Maintain consistent, professional communication that customers love.",
     placeholder: "Customer Journey",
-    mpid: "7b5baba9-68b1-486c-b64e-c9b602bc1576"
+    mpid: "5e664398-5717-4489-a814-a65e0aaadfaf"
   }, {
     icon: <Target size={48} data-magicpath-id="3" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "80%",
     title: "Time Saved",
     description: "Free up your team to focus on complex issues while AI handles routine inquiries.",
     placeholder: "Analytics Dashboard",
-    mpid: "03bfe814-0df8-48e4-abfb-f990baa55288"
+    mpid: "4ea27f3d-a48f-4604-bfc4-4eacca6da49a"
   }] as any[];
   return <section id="benefits" className="py-32 px-8 md:px-16 lg:px-24 bg-gray-50" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
