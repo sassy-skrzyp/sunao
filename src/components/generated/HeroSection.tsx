@@ -131,6 +131,8 @@ export default function HeroSection() {
               duration: 0.8,
               delay: 0.4,
               ease: "easeOut"
+            }} style={{
+              marginBottom: "24px"
             }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" style={{
                 width: "900px",
@@ -159,7 +161,7 @@ export default function HeroSection() {
             }} whileTap={{
               scale: 0.98
             }} style={{
-              marginTop: "24px"
+              marginTop: "0px"
             }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
                 Try it for free
               </motion.button>
