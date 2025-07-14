@@ -113,7 +113,7 @@ export default function HeroSection() {
               maxWidth: "900px",
               textAlign: "left",
               justifyContent: "flex-start"
-            }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own every<br data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />customer interaction</motion.h1>
+            }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own <em data-magicpath-id="15" data-magicpath-path="HeroSection.tsx">every</em><br data-magicpath-id="16" data-magicpath-path="HeroSection.tsx" />customer interaction</motion.h1>
               
               <motion.div className="space-y-2" initial={{
               opacity: 0,
@@ -125,13 +125,13 @@ export default function HeroSection() {
               duration: 0.8,
               delay: 0.4,
               ease: "easeOut"
-            }} data-magicpath-id="16" data-magicpath-path="HeroSection.tsx">
+            }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" style={{
                 width: "900px",
                 maxWidth: "900px"
-              }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
+              }} data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
                   Generate authentic, professional responses to any customer concern.
-                  <br data-magicpath-id="18" data-magicpath-path="HeroSection.tsx" />
+                  <br data-magicpath-id="19" data-magicpath-path="HeroSection.tsx" />
                   Take control of your customer communications.
                 </p>
               </motion.div>
@@ -151,13 +151,13 @@ export default function HeroSection() {
               y: -2
             }} whileTap={{
               scale: 0.98
-            }} data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
+            }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
                 Try it for free
               </motion.button>
             </div>
 
             {/* Right side - Background image handles the illustration */}
-            <div className="relative h-96 lg:h-[500px]" data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
+            <div className="relative h-96 lg:h-[500px]" data-magicpath-id="21" data-magicpath-path="HeroSection.tsx">
               {/* This space is intentionally left for the background image to show through */}
             </div>
           </div>
