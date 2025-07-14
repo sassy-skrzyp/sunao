@@ -13,37 +13,37 @@ export default function FeaturesSection() {
     title: "Smart Responses",
     description: "AI-powered responses that understand context and maintain your brand voice across all customer interactions.",
     stats: "99.7% accuracy rate",
-    mpid: "742a4d74-cbaf-4946-b125-ede023b5f61c"
+    mpid: "2d8effe6-e1d5-4c65-b218-678d720cb651"
   }, {
     icon: <Zap size={32} data-magicpath-id="1" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Instant Processing",
     description: "Real-time response generation that keeps your customers engaged without delays or waiting times.",
     stats: "<100ms response time",
-    mpid: "4eaba02a-a023-4d04-a016-a54f01308cc3"
+    mpid: "f3d608f4-a61e-4b61-bc41-01e16c6f6716"
   }, {
     icon: <Globe size={32} data-magicpath-id="2" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Multi-Platform",
     description: "Seamless integration across email, chat, social media, and support platforms in one unified system.",
     stats: "50+ platforms supported",
-    mpid: "d9099bd1-ed88-4347-a824-212049ebd962"
+    mpid: "0900a9d9-f23d-4502-910c-95a44054e0be"
   }, {
     icon: <Shield size={32} data-magicpath-id="3" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Privacy First",
     description: "Enterprise-grade security with end-to-end encryption and compliance with global privacy standards.",
     stats: "SOC 2 Type II certified",
-    mpid: "50724993-c323-46be-ac40-e8481683604b"
+    mpid: "76fb9aa6-191a-498b-adcf-8d49e8710953"
   }, {
     icon: <Brain size={32} data-magicpath-id="4" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Learning Engine",
     description: "Continuously improves response quality by learning from your successful customer interactions.",
     stats: "Improves 15% weekly",
-    mpid: "792a596b-cd3c-4889-a8ab-59617501be22"
+    mpid: "3f7550e3-1ed8-4667-b747-57da1a2798f5"
   }, {
     icon: <Users size={32} data-magicpath-id="5" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Team Collaboration",
     description: "Enable your entire team to maintain consistent, professional communication standards.",
     stats: "Teams perform 40% better",
-    mpid: "0810c6fd-fc1d-425d-9e9b-85db4a94fb20"
+    mpid: "465f1ba6-1483-4c04-bda5-1f83a7ef9aa6"
   }] as any[];
   const scrollToIndex = (index: number) => {
     if (containerRef.current) {
@@ -116,27 +116,25 @@ export default function FeaturesSection() {
           </p>
         </motion.div>
 
-        {/* Navigation Controls */}
-        <div className="flex justify-center items-center gap-4 mb-8" data-magicpath-id="12" data-magicpath-path="FeaturesSection.tsx">
-          <button onClick={scrollLeft} disabled={!canScrollLeft} className={`p-3 rounded-full transition-all duration-300 ${canScrollLeft ? 'bg-white shadow-sm hover:shadow-md text-gray-700 hover:text-pink-500' : 'bg-gray-100 text-gray-400 cursor-not-allowed'}`} data-magicpath-id="13" data-magicpath-path="FeaturesSection.tsx">
-            <ChevronLeft size={20} data-magicpath-id="14" data-magicpath-path="FeaturesSection.tsx" />
-          </button>
-          
-          {/* Progress Indicators */}
-          <div className="flex gap-2" data-magicpath-id="15" data-magicpath-path="FeaturesSection.tsx">
-            {features.map((_, index) => <button key={index} onClick={() => scrollToIndex(index)} className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex ? 'w-8 bg-pink-500' : 'w-2 bg-gray-300 hover:bg-gray-400'}`} data-magicpath-id="16" data-magicpath-path="FeaturesSection.tsx" />)}
+        {/* Feature Navigation */}
+        <div className="mb-8 text-center" data-magicpath-id="12" data-magicpath-path="FeaturesSection.tsx">
+          <p className="text-gray-500 mb-6 font-normal" style={{
+          letterSpacing: '-0.06em'
+        }} data-magicpath-id="13" data-magicpath-path="FeaturesSection.tsx">Explore all features</p>
+          <div className="flex flex-wrap justify-center gap-2 md:gap-3" data-magicpath-id="14" data-magicpath-path="FeaturesSection.tsx">
+            {features.map((feature, index) => <button key={index} onClick={() => scrollToIndex(index)} className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${index === currentIndex ? 'bg-pink-500 text-white shadow-sm' : 'bg-white text-gray-600 hover:bg-gray-50 shadow-sm hover:shadow-md'}`} style={{
+            letterSpacing: '-0.06em'
+          }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="15" data-magicpath-path="FeaturesSection.tsx">
+                {feature.title}
+              </button>)}
           </div>
-
-          <button onClick={scrollRight} disabled={!canScrollRight} className={`p-3 rounded-full transition-all duration-300 ${canScrollRight ? 'bg-white shadow-sm hover:shadow-md text-gray-700 hover:text-pink-500' : 'bg-gray-100 text-gray-400 cursor-not-allowed'}`} data-magicpath-id="17" data-magicpath-path="FeaturesSection.tsx">
-            <ChevronRight size={20} data-magicpath-id="18" data-magicpath-path="FeaturesSection.tsx" />
-          </button>
         </div>
 
         {/* Horizontal Scrolling Container */}
         <div ref={containerRef} className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-8" style={{
         scrollbarWidth: 'none',
         msOverflowStyle: 'none'
-      }} data-magicpath-id="19" data-magicpath-path="FeaturesSection.tsx">
+      }} data-magicpath-id="16" data-magicpath-path="FeaturesSection.tsx">
           {features.map((feature, index) => <motion.div key={index} className="flex-none w-full max-w-4xl snap-center" initial={{
           opacity: 0,
           x: 100
@@ -148,20 +146,20 @@ export default function FeaturesSection() {
           delay: index * 0.1
         }} viewport={{
           once: true
-        }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="20" data-magicpath-path="FeaturesSection.tsx">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="21" data-magicpath-path="FeaturesSection.tsx">
-                <div className="p-8 md:p-12" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="22" data-magicpath-path="FeaturesSection.tsx">
-                  <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="23" data-magicpath-path="FeaturesSection.tsx">
+        }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="17" data-magicpath-path="FeaturesSection.tsx">
+              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="18" data-magicpath-path="FeaturesSection.tsx">
+                <div className="p-8 md:p-12" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="19" data-magicpath-path="FeaturesSection.tsx">
+                  <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="20" data-magicpath-path="FeaturesSection.tsx">
                     {/* Icon and Title */}
-                    <div className="flex-1 space-y-6" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="24" data-magicpath-path="FeaturesSection.tsx">
-                      <div className="flex items-center gap-4" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="25" data-magicpath-path="FeaturesSection.tsx">
-                        <div className="text-pink-500 bg-pink-50 p-3 rounded-xl" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="26" data-magicpath-path="FeaturesSection.tsx">
+                    <div className="flex-1 space-y-6" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="21" data-magicpath-path="FeaturesSection.tsx">
+                      <div className="flex items-center gap-4" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="22" data-magicpath-path="FeaturesSection.tsx">
+                        <div className="text-pink-500 bg-pink-50 p-3 rounded-xl" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="23" data-magicpath-path="FeaturesSection.tsx">
                           {feature.icon}
                         </div>
-                        <div data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="27" data-magicpath-path="FeaturesSection.tsx">
+                        <div data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="24" data-magicpath-path="FeaturesSection.tsx">
                           <h3 className="text-2xl md:text-3xl font-medium text-black leading-tight" style={{
                         letterSpacing: '-0.06em'
-                      }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="28" data-magicpath-path="FeaturesSection.tsx">
+                      }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="25" data-magicpath-path="FeaturesSection.tsx">
                             {feature.title}
                           </h3>
                         </div>
@@ -169,24 +167,24 @@ export default function FeaturesSection() {
 
                       <p className="text-lg text-gray-700 leading-relaxed max-w-2xl font-normal" style={{
                     letterSpacing: '-0.06em'
-                  }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="29" data-magicpath-path="FeaturesSection.tsx">
+                  }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="26" data-magicpath-path="FeaturesSection.tsx">
                         {feature.description}
                       </p>
 
-                      <div className="flex items-center gap-3 pt-2" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="30" data-magicpath-path="FeaturesSection.tsx">
-                        <div className="h-px bg-pink-200 flex-1" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="31" data-magicpath-path="FeaturesSection.tsx"></div>
+                      <div className="flex items-center gap-3 pt-2" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="27" data-magicpath-path="FeaturesSection.tsx">
+                        <div className="h-px bg-pink-200 flex-1" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="28" data-magicpath-path="FeaturesSection.tsx"></div>
                         <span className="text-sm font-medium text-gray-600 bg-gray-50 px-4 py-2 rounded-full" style={{
                       letterSpacing: '-0.06em'
-                    }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="stats:unknown" data-magicpath-id="32" data-magicpath-path="FeaturesSection.tsx">
+                    }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="stats:unknown" data-magicpath-id="29" data-magicpath-path="FeaturesSection.tsx">
                           {feature.stats}
                         </span>
-                        <div className="h-px bg-pink-200 flex-1" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="33" data-magicpath-path="FeaturesSection.tsx"></div>
+                        <div className="h-px bg-pink-200 flex-1" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="30" data-magicpath-path="FeaturesSection.tsx"></div>
                       </div>
                     </div>
 
                     {/* Visual Element */}
-                    <div className="flex-shrink-0 lg:w-64 h-48 bg-gray-50 rounded-xl flex items-center justify-center" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="34" data-magicpath-path="FeaturesSection.tsx">
-                      <div className="text-pink-300 scale-150" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="35" data-magicpath-path="FeaturesSection.tsx">
+                    <div className="flex-shrink-0 lg:w-64 h-48 bg-gray-50 rounded-xl flex items-center justify-center" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="31" data-magicpath-path="FeaturesSection.tsx">
+                      <div className="text-pink-300 scale-150" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="32" data-magicpath-path="FeaturesSection.tsx">
                         {feature.icon}
                       </div>
                     </div>
@@ -196,18 +194,20 @@ export default function FeaturesSection() {
             </motion.div>)}
         </div>
 
-        {/* Feature Navigation */}
-        <div className="mt-16 text-center" data-magicpath-id="36" data-magicpath-path="FeaturesSection.tsx">
-          <p className="text-gray-500 mb-6 font-normal" style={{
-          letterSpacing: '-0.06em'
-        }} data-magicpath-id="37" data-magicpath-path="FeaturesSection.tsx">Explore all features</p>
-          <div className="flex flex-wrap justify-center gap-2 md:gap-3" data-magicpath-id="38" data-magicpath-path="FeaturesSection.tsx">
-            {features.map((feature, index) => <button key={index} onClick={() => scrollToIndex(index)} className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${index === currentIndex ? 'bg-pink-500 text-white shadow-sm' : 'bg-white text-gray-600 hover:bg-gray-50 shadow-sm hover:shadow-md'}`} style={{
-            letterSpacing: '-0.06em'
-          }} data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="39" data-magicpath-path="FeaturesSection.tsx">
-                {feature.title}
-              </button>)}
+        {/* Navigation Controls */}
+        <div className="flex justify-center items-center gap-4 mt-8" data-magicpath-id="33" data-magicpath-path="FeaturesSection.tsx">
+          <button onClick={scrollLeft} disabled={!canScrollLeft} className={`p-3 rounded-full transition-all duration-300 ${canScrollLeft ? 'bg-white shadow-sm hover:shadow-md text-gray-700 hover:text-pink-500' : 'bg-gray-100 text-gray-400 cursor-not-allowed'}`} data-magicpath-id="34" data-magicpath-path="FeaturesSection.tsx">
+            <ChevronLeft size={20} data-magicpath-id="35" data-magicpath-path="FeaturesSection.tsx" />
+          </button>
+          
+          {/* Progress Indicators */}
+          <div className="flex gap-2" data-magicpath-id="36" data-magicpath-path="FeaturesSection.tsx">
+            {features.map((_, index) => <button key={index} onClick={() => scrollToIndex(index)} className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex ? 'w-8 bg-pink-500' : 'w-2 bg-gray-300 hover:bg-gray-400'}`} data-magicpath-id="37" data-magicpath-path="FeaturesSection.tsx" />)}
           </div>
+
+          <button onClick={scrollRight} disabled={!canScrollRight} className={`p-3 rounded-full transition-all duration-300 ${canScrollRight ? 'bg-white shadow-sm hover:shadow-md text-gray-700 hover:text-pink-500' : 'bg-gray-100 text-gray-400 cursor-not-allowed'}`} data-magicpath-id="38" data-magicpath-path="FeaturesSection.tsx">
+            <ChevronRight size={20} data-magicpath-id="39" data-magicpath-path="FeaturesSection.tsx" />
+          </button>
         </div>
       </div>
 
