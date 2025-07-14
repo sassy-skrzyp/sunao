@@ -10,28 +10,28 @@ export default function BenefitsSection() {
     title: "Faster Response Times",
     description: "Reduce customer wait times and improve satisfaction with instant, intelligent responses.",
     placeholder: "Chart Visualization",
-    mpid: "f876a0ae-5c79-48e3-901e-63d29a01cf71"
+    mpid: "dec1e711-ceb9-47ae-b23d-47b07d331e3f"
   }, {
     icon: <Clock size={48} data-magicpath-id="1" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "24/7",
     title: "Always Available",
     description: "Never miss a customer inquiry with round-the-clock automated assistance.",
     placeholder: "Process Diagram",
-    mpid: "1b531a21-c338-41f6-9ab7-16fbff87f71f"
+    mpid: "8a7e8be1-eacb-406e-8e93-698c9719a123"
   }, {
     icon: <Heart size={48} data-magicpath-id="2" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "95%",
     title: "Customer Satisfaction",
     description: "Maintain consistent, professional communication that customers love.",
     placeholder: "Customer Journey",
-    mpid: "9460725d-3760-4dfc-b872-abb31e3fb41f"
+    mpid: "7b5baba9-68b1-486c-b64e-c9b602bc1576"
   }, {
     icon: <Target size={48} data-magicpath-id="3" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "80%",
     title: "Time Saved",
     description: "Free up your team to focus on complex issues while AI handles routine inquiries.",
     placeholder: "Analytics Dashboard",
-    mpid: "ca393311-c93e-45b3-9f72-7f448a077a03"
+    mpid: "03bfe814-0df8-48e4-abfb-f990baa55288"
   }] as any[];
   return <section id="benefits" className="py-32 px-8 md:px-16 lg:px-24 bg-gray-50" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
@@ -51,21 +51,20 @@ export default function BenefitsSection() {
       }} viewport={{
         once: true
       }} data-magicpath-id="6" data-magicpath-path="BenefitsSection.tsx">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-black mb-8 leading-tight" style={{
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-black mb-8 leading-tight whitespace-nowrap" style={{
           letterSpacing: '-0.06em'
         }} data-magicpath-id="7" data-magicpath-path="BenefitsSection.tsx">
-            Transform your<br data-magicpath-id="8" data-magicpath-path="BenefitsSection.tsx" />
-            customer experience
+            Transform your customer experience
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-normal" style={{
           letterSpacing: '-0.06em'
-        }} data-magicpath-id="9" data-magicpath-path="BenefitsSection.tsx">
+        }} data-magicpath-id="8" data-magicpath-path="BenefitsSection.tsx">
             See the measurable impact on your business and customer relationships
           </p>
         </motion.div>
 
         {/* Benefits Cards - Single Column with Alternating Layout */}
-        <div className="space-y-32" data-magicpath-id="10" data-magicpath-path="BenefitsSection.tsx">
+        <div className="space-y-32" data-magicpath-id="9" data-magicpath-path="BenefitsSection.tsx">
           {benefits.map((benefit, index) => <motion.div key={index} className={`flex flex-col lg:flex-row items-center gap-12 lg:gap-16 ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`} initial={{
           opacity: 0,
           y: 40
@@ -78,41 +77,41 @@ export default function BenefitsSection() {
           ease: "easeOut"
         }} viewport={{
           once: true
-        }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="BenefitsSection.tsx">
+        }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="10" data-magicpath-path="BenefitsSection.tsx">
               {/* Visual Placeholder */}
-              <div className="w-full lg:w-1/2 h-[350px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center shadow-sm" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="12" data-magicpath-path="BenefitsSection.tsx">
+              <div className="w-full lg:w-1/2 h-[350px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center shadow-sm" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="BenefitsSection.tsx">
                 <span className="text-gray-500 text-lg font-medium" style={{
               letterSpacing: '-0.06em'
-            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="placeholder:unknown" data-magicpath-id="13" data-magicpath-path="BenefitsSection.tsx">
+            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="placeholder:unknown" data-magicpath-id="12" data-magicpath-path="BenefitsSection.tsx">
                   {benefit.placeholder}
                 </span>
               </div>
 
               {/* Content */}
-              <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="14" data-magicpath-path="BenefitsSection.tsx">
+              <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="13" data-magicpath-path="BenefitsSection.tsx">
                 {/* Icon */}
-                <div className="flex justify-center lg:justify-start text-gray-700 group-hover:text-pink-500 transition-colors duration-300" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="15" data-magicpath-path="BenefitsSection.tsx">
+                <div className="flex justify-center lg:justify-start text-gray-700 group-hover:text-pink-500 transition-colors duration-300" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="14" data-magicpath-path="BenefitsSection.tsx">
                   {benefit.icon}
                 </div>
                 
                 {/* Metric */}
                 <div className="text-5xl md:text-6xl lg:text-7xl font-semibold text-black" style={{
               letterSpacing: '-0.06em'
-            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="metric:unknown" data-magicpath-id="16" data-magicpath-path="BenefitsSection.tsx">
+            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="metric:unknown" data-magicpath-id="15" data-magicpath-path="BenefitsSection.tsx">
                   {benefit.metric}
                 </div>
                 
                 {/* Title */}
                 <h3 className="text-2xl md:text-3xl font-medium text-black" style={{
               letterSpacing: '-0.06em'
-            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="17" data-magicpath-path="BenefitsSection.tsx">
+            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="16" data-magicpath-path="BenefitsSection.tsx">
                   {benefit.title}
                 </h3>
                 
                 {/* Description */}
                 <p className="text-gray-600 text-lg leading-relaxed max-w-lg mx-auto lg:mx-0 font-normal" style={{
               letterSpacing: '-0.06em'
-            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="18" data-magicpath-path="BenefitsSection.tsx">
+            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="17" data-magicpath-path="BenefitsSection.tsx">
                   {benefit.description}
                 </p>
               </div>
@@ -132,7 +131,7 @@ export default function BenefitsSection() {
         ease: "easeOut"
       }} viewport={{
         once: true
-      }} data-magicpath-id="19" data-magicpath-path="BenefitsSection.tsx">
+      }} data-magicpath-id="18" data-magicpath-path="BenefitsSection.tsx">
           <motion.button className="bg-black hover:bg-gray-800 text-white px-12 py-4 rounded-full text-lg font-normal transition-all duration-200 shadow-sm hover:shadow-md" style={{
           letterSpacing: '-0.06em'
         }} whileHover={{
@@ -140,7 +139,7 @@ export default function BenefitsSection() {
           y: -2
         }} whileTap={{
           scale: 0.98
-        }} data-magicpath-id="20" data-magicpath-path="BenefitsSection.tsx">
+        }} data-magicpath-id="19" data-magicpath-path="BenefitsSection.tsx">
             Start your free trial
           </motion.button>
         </motion.div>

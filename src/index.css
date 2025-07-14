@@ -95,7 +95,7 @@ body {
   --primary: oklch(0.799 0.169 335.6);
   --sidebar: hsl(312.86deg 100% 78.04% / 0.39);
   --secondary: rgb(253 238 207);
-  --background: #f9fafb;
+  --background: rgb(247 246 242);
   --foreground: oklch(0.2 0.02 240);
   --destructive: oklch(0.65 0.15 25);
   --sidebar-ring: oklch(0.6 0.12 230);
