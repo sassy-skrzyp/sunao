@@ -96,8 +96,8 @@ export default function HeroSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center min-h-[65vh]" data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
             {/* Left Content */}
             <div className="space-y-12 lg:space-y-16" style={{
-            display: "flex",
-            flexDirection: "column"
+            flexDirection: "column",
+            display: "block"
           }} data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
               <motion.h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[0.9] text-black" initial={{
               opacity: 0,
