@@ -11,7 +11,7 @@ export default function PricingSection() {
     description: "Perfect for small teams getting started",
     features: ["Up to 1,000 responses/month", "Basic AI responses", "Email integration", "Standard support", "Basic analytics"],
     popular: false,
-    mpid: "e677ec74-622a-4e95-80f5-0021758353e9"
+    mpid: "7a53be3b-a1df-48e7-bfb4-3bd0fd9e6bd9"
   }, {
     name: "Professional",
     price: "99",
@@ -19,7 +19,7 @@ export default function PricingSection() {
     description: "Ideal for growing businesses",
     features: ["Up to 10,000 responses/month", "Advanced AI with learning", "Multi-platform integration", "Priority support", "Advanced analytics", "Custom brand voice", "Team collaboration"],
     popular: true,
-    mpid: "3734873f-3a14-4b03-8fc0-8e3fa83674df"
+    mpid: "dc657e98-b1da-4dd6-9ed9-fec30c18eca2"
   }, {
     name: "Enterprise",
     price: "Custom",
@@ -27,7 +27,7 @@ export default function PricingSection() {
     description: "For large organizations with specific needs",
     features: ["Unlimited responses", "Custom AI training", "Full API access", "Dedicated support", "Custom integrations", "Advanced security", "SLA guarantee", "White-label options"],
     popular: false,
-    mpid: "bbd80ed7-a49b-49d1-a81b-ed9d1cad57e4"
+    mpid: "238063ef-79d0-49c3-a3e9-cc446c5a12c0"
   }] as any[];
   return <section id="pricing" className="py-32 px-8 md:px-16 lg:px-24" style={{
     backgroundColor: '#f7f6f2',
