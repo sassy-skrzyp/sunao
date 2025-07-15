@@ -94,6 +94,13 @@ export default function HeroSection() {
           scale: 1.05
         }} whileTap={{
           scale: 0.95
+        }} onClick={() => {
+          const featuresSection = document.getElementById('features') || document.querySelector('[data-magicpath-path="FeaturesSection.tsx"]');
+          if (featuresSection) {
+            featuresSection.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
         }} data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">
             Sign up
           </motion.button>
