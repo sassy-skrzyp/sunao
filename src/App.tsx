@@ -24,20 +24,20 @@ function App() {
   const generatedComponent = useMemo(() => {
     // THIS IS WHERE THE TOP LEVEL GENRATED COMPONENT WILL BE RETURNED!
     return (
-      <>
+      <div className="min-h-screen bg-background">
         <FloatingNavbar />
         <HeroSection />
         <FeaturesSection />
         <BenefitsSection />
         <PricingSection />
         <FooterSection />
-      </>
+      </div>
     ); // %EXPORT_STATEMENT%
   }, []);
 
   if (container === 'centered') {
     return (
-      <div className="h-full w-full flex flex-col items-center justify-center">
+      <div className="h-full w-full flex flex-col items-center justify-center bg-background">
         {generatedComponent}
       </div>
     );
