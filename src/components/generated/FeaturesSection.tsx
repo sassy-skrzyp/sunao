@@ -13,25 +13,29 @@ export default function FeaturesSection() {
     title: "Smart Responses",
     description: "AI-powered responses that understand context and maintain your brand voice across all customer interactions.",
     stats: "99.7% accuracy rate",
-    mpid: "ef70fcd5-d2aa-416f-b693-6bf805b1bcc3"
+    image: "https://imgur.com/uXRXU0Z.png",
+    mpid: "4df33633-3cb2-4c6b-bdcc-e61cf790686d"
   }, {
     icon: <Zap size={32} data-magicpath-id="1" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Instant Processing",
     description: "Real-time response generation that keeps your customers engaged without delays or waiting times.",
     stats: "<100ms response time",
-    mpid: "862ac31d-3767-4e50-9736-6c24d073f6ef"
+    image: "https://imgur.com/Zo7NGvN.png",
+    mpid: "479a460c-21b1-4338-8126-4ee361647fbc"
   }, {
     icon: <Brain size={32} data-magicpath-id="2" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Learning Engine",
     description: "Continuously improves response quality by learning from your successful customer interactions.",
     stats: "Improves 15% weekly",
-    mpid: "6e266d48-566c-4509-8dd2-84e4df4c99ce"
+    image: "https://imgur.com/HAOvAo1.png",
+    mpid: "5c03efa5-33b9-462f-89d6-dfbe790b8b8e"
   }, {
     icon: <Users size={32} data-magicpath-id="3" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Team Collaboration",
     description: "Enable your entire team to maintain consistent, professional communication standards.",
     stats: "Teams perform 40% better",
-    mpid: "3802f605-0d1b-4fa2-9cd7-ab3a6aad6b6b"
+    image: "https://imgur.com/Sb8TPDU.png",
+    mpid: "402452ce-6365-4339-8dab-4ee4667f4700"
   }] as any[];
   const scrollToIndex = (index: number) => {
     if (containerRef.current) {
@@ -172,10 +176,8 @@ export default function FeaturesSection() {
                     </div>
 
                     {/* Visual Element */}
-                    <div className="flex-shrink-0 lg:w-64 h-48 bg-gray-50 rounded-xl flex items-center justify-center" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="29" data-magicpath-path="FeaturesSection.tsx">
-                      <div className="text-pink-300 scale-150" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="30" data-magicpath-path="FeaturesSection.tsx">
-                        {feature.icon}
-                      </div>
+                    <div className="flex-shrink-0 lg:w-80 h-64 bg-gray-50 rounded-xl overflow-hidden shadow-sm" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="29" data-magicpath-path="FeaturesSection.tsx">
+                      <img src={feature.image} alt={feature.title} className="w-full h-full object-cover" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="image:unknown" data-magicpath-id="30" data-magicpath-path="FeaturesSection.tsx" />
                     </div>
                   </div>
                 </div>
