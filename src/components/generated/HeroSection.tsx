@@ -95,12 +95,7 @@ export default function HeroSection() {
         }} whileTap={{
           scale: 0.95
         }} onClick={() => {
-          const featuresSection = document.getElementById('features') || document.querySelector('[data-magicpath-path="FeaturesSection.tsx"]');
-          if (featuresSection) {
-            featuresSection.scrollIntoView({
-              behavior: 'smooth'
-            });
-          }
+          window.open('https://designs.magicpath.ai/v1/fierce-castle-3949', '_blank');
         }} data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">
             Sign up
           </motion.button>

@@ -13,37 +13,37 @@ export default function FeaturesSection() {
     title: "Smart Responses",
     description: "AI-powered responses that understand context and maintain your brand voice across all customer interactions.",
     stats: "99.7% accuracy rate",
-    mpid: "4ee34181-4245-49aa-921f-720b7491eadf"
+    mpid: "09d96416-a88d-4b32-880e-e2479170be22"
   }, {
     icon: <Zap size={32} data-magicpath-id="1" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Instant Processing",
     description: "Real-time response generation that keeps your customers engaged without delays or waiting times.",
     stats: "<100ms response time",
-    mpid: "e85a2023-d444-46e9-b756-c942051c9bbf"
+    mpid: "d96591b1-cf43-4b4b-8cf1-59cb195b94ac"
   }, {
     icon: <Globe size={32} data-magicpath-id="2" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Multi-Platform",
     description: "Seamless integration across email, chat, social media, and support platforms in one unified system.",
     stats: "50+ platforms supported",
-    mpid: "72f6ec8d-2d8f-4752-b5d8-f77a642e2713"
+    mpid: "be11ab2a-065a-4147-85c9-7e55a5b05d34"
   }, {
     icon: <Shield size={32} data-magicpath-id="3" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Privacy First",
     description: "Enterprise-grade security with end-to-end encryption and compliance with global privacy standards.",
     stats: "SOC 2 Type II certified",
-    mpid: "8e92a224-6402-49fe-8618-d5b6807c5fa9"
+    mpid: "d84428bb-0ffb-40c1-98b7-b923cd0fe4c6"
   }, {
     icon: <Brain size={32} data-magicpath-id="4" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Learning Engine",
     description: "Continuously improves response quality by learning from your successful customer interactions.",
     stats: "Improves 15% weekly",
-    mpid: "949ecfaa-693b-4402-b80c-6e91a57cd23e"
+    mpid: "73e8b11a-dd6c-4112-9d3f-4861880723e4"
   }, {
     icon: <Users size={32} data-magicpath-id="5" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Team Collaboration",
     description: "Enable your entire team to maintain consistent, professional communication standards.",
     stats: "Teams perform 40% better",
-    mpid: "e3f61de7-d8fb-4e59-849d-53bcda37b414"
+    mpid: "7cd54311-fefb-4c64-a753-23d5caa118a6"
   }] as any[];
   const scrollToIndex = (index: number) => {
     if (containerRef.current) {
