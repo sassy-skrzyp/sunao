@@ -5,6 +5,7 @@ import FeaturesSection from './components/generated/FeaturesSection';
 import BenefitsSection from './components/generated/BenefitsSection';
 import PricingSection from './components/generated/PricingSection';
 import FooterSection from './components/generated/FooterSection';
+import FloatingNavbar from './components/generated/FloatingNavbar';
 
 let theme: Theme = 'light';
 let container: Container = 'none';
@@ -24,6 +25,7 @@ function App() {
     // THIS IS WHERE THE TOP LEVEL GENRATED COMPONENT WILL BE RETURNED!
     return (
       <>
+        <FloatingNavbar />
         <HeroSection />
         <FeaturesSection />
         <BenefitsSection />
