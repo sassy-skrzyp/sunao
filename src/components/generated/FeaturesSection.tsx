@@ -13,37 +13,37 @@ export default function FeaturesSection() {
     title: "Smart Responses",
     description: "AI-powered responses that understand context and maintain your brand voice across all customer interactions.",
     stats: "99.7% accuracy rate",
-    mpid: "05a98aee-310b-4a8b-86f8-b568c1d405f2"
+    mpid: "5ca0e892-668d-4fb1-a56c-cb598c99a20e"
   }, {
     icon: <Zap size={32} data-magicpath-id="1" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Instant Processing",
     description: "Real-time response generation that keeps your customers engaged without delays or waiting times.",
     stats: "<100ms response time",
-    mpid: "748dd973-8e06-4cdf-b29a-168d6ff702c3"
+    mpid: "21f9e195-ea95-4bae-99d5-b6022843eb68"
   }, {
     icon: <Globe size={32} data-magicpath-id="2" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Multi-Platform",
     description: "Seamless integration across email, chat, social media, and support platforms in one unified system.",
     stats: "50+ platforms supported",
-    mpid: "7c6d654b-8047-422d-8dde-c1d6db1dc607"
+    mpid: "f41d9cb4-6c96-44d3-b948-e4eb8f7f968b"
   }, {
     icon: <Shield size={32} data-magicpath-id="3" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Privacy First",
     description: "Enterprise-grade security with end-to-end encryption and compliance with global privacy standards.",
     stats: "SOC 2 Type II certified",
-    mpid: "5fd63de4-6fd4-4e61-a265-84f8a7a6d9e9"
+    mpid: "f786faeb-3a09-4618-837d-f45a6fbc4538"
   }, {
     icon: <Brain size={32} data-magicpath-id="4" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Learning Engine",
     description: "Continuously improves response quality by learning from your successful customer interactions.",
     stats: "Improves 15% weekly",
-    mpid: "7e5502f0-ce5d-40a3-80b5-f297e25d054b"
+    mpid: "6711026d-7413-4c01-b120-1975c7284ab8"
   }, {
     icon: <Users size={32} data-magicpath-id="5" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Team Collaboration",
     description: "Enable your entire team to maintain consistent, professional communication standards.",
     stats: "Teams perform 40% better",
-    mpid: "a348ecd5-3528-4f5a-97e0-c9355d4fef16"
+    mpid: "33eb757b-2b97-4d84-9895-9e7683a932eb"
   }] as any[];
   const scrollToIndex = (index: number) => {
     if (containerRef.current) {
@@ -83,7 +83,8 @@ export default function FeaturesSection() {
       return () => container.removeEventListener('scroll', handleScroll);
     }
   }, []);
-  return <section id="features" className="py-20 bg-gray-50" style={{
+  return <section id="features" className="py-20" style={{
+    backgroundColor: '#f7f6f2',
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     letterSpacing: '-0.06em'
   }} data-magicpath-id="6" data-magicpath-path="FeaturesSection.tsx">

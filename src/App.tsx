@@ -24,7 +24,7 @@ function App() {
   const generatedComponent = useMemo(() => {
     // THIS IS WHERE THE TOP LEVEL GENRATED COMPONENT WILL BE RETURNED!
     return (
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen" style={{ backgroundColor: '#f7f6f2' }}>
         <FloatingNavbar />
         <HeroSection />
         <FeaturesSection />
