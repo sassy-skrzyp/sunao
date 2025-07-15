@@ -9,29 +9,29 @@ export default function BenefitsSection() {
     metric: "300%",
     title: "Faster Response Times",
     description: "Reduce customer wait times and improve satisfaction with instant, intelligent responses.",
-    placeholder: "Chart Visualization",
-    mpid: "306dc09e-612a-4746-8655-477bc033dfcc"
+    image: "https://cdn.midjourney.com/4c2c8075-5439-4ace-9550-12207773dc2a/0_2.png",
+    mpid: "2b70bbcd-b5e6-49f1-bc14-40a7cde09a7b"
   }, {
     icon: <Clock size={48} data-magicpath-id="1" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "24/7",
     title: "Always Available",
     description: "Never miss a customer inquiry with round-the-clock automated assistance.",
-    placeholder: "Process Diagram",
-    mpid: "77b01ce6-211f-4f8a-bc09-516fd09570f7"
+    image: "https://cdn.midjourney.com/cc5d14ef-fc3e-42dd-804e-f47b2b672776/0_1.png",
+    mpid: "dd664776-d57b-42fa-bd0b-87e0358254c9"
   }, {
     icon: <Heart size={48} data-magicpath-id="2" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "95%",
     title: "Customer Satisfaction",
     description: "Maintain consistent, professional communication that customers love.",
-    placeholder: "Customer Journey",
-    mpid: "43d0f93e-db23-43c4-bd9f-50e241c6371d"
+    image: "https://cdn.midjourney.com/bc953087-188d-41a9-a8d8-bed9931fcdee/0_0.png",
+    mpid: "28e955d7-3dcc-4587-a1d9-64d97d1017aa"
   }, {
     icon: <Target size={48} data-magicpath-id="3" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "80%",
     title: "Time Saved",
     description: "Free up your team to focus on complex issues while AI handles routine inquiries.",
-    placeholder: "Analytics Dashboard",
-    mpid: "d57541ec-ea2d-4385-8e25-6dcd432212d3"
+    image: "https://cdn.midjourney.com/e837e592-91e3-4429-bee1-011188ee68d6/0_3.png",
+    mpid: "45d9f543-85b9-4390-b0e7-d85608509c3b"
   }] as any[];
   return <section id="benefits" className="py-32 px-8 md:px-16 lg:px-24 bg-gray-50" style={{
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
@@ -79,12 +79,8 @@ export default function BenefitsSection() {
           once: true
         }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="10" data-magicpath-path="BenefitsSection.tsx">
               {/* Visual Placeholder */}
-              <div className="w-full lg:w-1/2 h-[350px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center shadow-sm" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="BenefitsSection.tsx">
-                <span className="text-gray-500 text-lg font-medium" style={{
-              letterSpacing: '-0.06em'
-            }} data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="placeholder:unknown" data-magicpath-id="12" data-magicpath-path="BenefitsSection.tsx">
-                  {benefit.placeholder}
-                </span>
+              <div className="w-full lg:w-1/2 h-[350px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center shadow-sm overflow-hidden" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="BenefitsSection.tsx">
+                <img src={benefit.image} alt={benefit.title} className="w-full h-full object-cover rounded-2xl" data-magicpath-uuid={(benefit as any)["mpid"] ?? "unsafe"} data-magicpath-field="image:unknown" data-magicpath-id="12" data-magicpath-path="BenefitsSection.tsx" />
               </div>
 
               {/* Content */}
