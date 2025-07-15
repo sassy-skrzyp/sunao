@@ -14,28 +14,28 @@ export default function FeaturesSection() {
     description: "AI-powered responses that understand context and maintain your brand voice across all customer interactions.",
     stats: "99.7% accuracy rate",
     image: "https://imgur.com/uXRXU0Z.png",
-    mpid: "22659af4-782d-49bd-9800-6b72302ac5bd"
+    mpid: "fa147d40-6bb5-4e4a-814c-1943fb5ec775"
   }, {
     icon: <Zap size={32} data-magicpath-id="1" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Instant Processing",
     description: "Real-time response generation that keeps your customers engaged without delays or waiting times.",
     stats: "<100ms response time",
     image: "https://imgur.com/Zo7NGvN.png",
-    mpid: "2643aa2a-f518-413b-9c60-ef6c69c2e90a"
+    mpid: "10bb5727-8d18-4ee1-a814-d09eedde50a1"
   }, {
     icon: <Brain size={32} data-magicpath-id="2" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Learning Engine",
     description: "Continuously improves response quality by learning from your successful customer interactions.",
     stats: "Improves 15% weekly",
     image: "https://imgur.com/HAOvAo1.png",
-    mpid: "b91dc032-f37f-4b23-822d-c323a626069f"
+    mpid: "6cf9f89d-53f5-4946-88a1-73005dc8c784"
   }, {
     icon: <Users size={32} data-magicpath-id="3" data-magicpath-path="FeaturesSection.tsx" />,
     title: "Team Collaboration",
     description: "Enable your entire team to maintain consistent, professional communication standards.",
     stats: "Teams perform 40% better",
     image: "https://imgur.com/Sb8TPDU.png",
-    mpid: "69984200-7897-4b3f-8453-21a4433a446e"
+    mpid: "200b6abb-9da2-49ad-8470-9ea3fc926438"
   }] as any[];
   const scrollToIndex = (index: number) => {
     if (containerRef.current) {

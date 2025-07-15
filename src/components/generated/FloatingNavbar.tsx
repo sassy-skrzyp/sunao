@@ -88,7 +88,7 @@ export default function FloatingNavbar() {
               </div>
               
               {/* Sign Up Button */}
-              <motion.button className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full text-sm font-normal transition-all duration-200 shadow-sm hover:shadow-md" style={{
+              <motion.a href="https://designs.magicpath.ai/v1/fiercely-light-4796" target="_blank" rel="noopener noreferrer" className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full text-sm font-normal transition-all duration-200 shadow-sm hover:shadow-md inline-block" style={{
             letterSpacing: '-0.06em'
           }} whileHover={{
             scale: 1.05,
@@ -97,7 +97,7 @@ export default function FloatingNavbar() {
             scale: 0.95
           }} data-magicpath-id="10" data-magicpath-path="FloatingNavbar.tsx">
                 Sign up
-              </motion.button>
+              </motion.a>
             </div>
           </div>
         </motion.nav>}

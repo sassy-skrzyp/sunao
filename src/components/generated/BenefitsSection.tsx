@@ -10,28 +10,28 @@ export default function BenefitsSection() {
     title: "Faster Response Times",
     description: "Reduce customer wait times and improve satisfaction with instant, intelligent responses.",
     image: "https://cdn.midjourney.com/4c2c8075-5439-4ace-9550-12207773dc2a/0_2.png",
-    mpid: "bbb5ece7-53f3-40b0-a5b8-c2cb3d0dc89b"
+    mpid: "e7f1e5f3-69e6-4665-ba77-c7a362ee877d"
   }, {
     icon: <Clock size={48} data-magicpath-id="1" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "24/7",
     title: "Always Available",
     description: "Never miss a customer inquiry with round-the-clock automated assistance.",
     image: "https://cdn.midjourney.com/cc5d14ef-fc3e-42dd-804e-f47b2b672776/0_1.png",
-    mpid: "2765e94e-c97a-4eb2-a1ac-7d38756fbfe4"
+    mpid: "b422d1d7-64b2-4a71-9493-b567a31b4e49"
   }, {
     icon: <Heart size={48} data-magicpath-id="2" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "95%",
     title: "Customer Satisfaction",
     description: "Maintain consistent, professional communication that customers love.",
     image: "https://cdn.midjourney.com/bc953087-188d-41a9-a8d8-bed9931fcdee/0_0.png",
-    mpid: "a128a8f9-bed9-4cf6-abb7-fe4f9b57a5d4"
+    mpid: "7883ce9a-0151-4cd4-ba35-befc10feb597"
   }, {
     icon: <Target size={48} data-magicpath-id="3" data-magicpath-path="BenefitsSection.tsx" />,
     metric: "80%",
     title: "Time Saved",
     description: "Free up your team to focus on complex issues while AI handles routine inquiries.",
     image: "https://cdn.midjourney.com/e837e592-91e3-4429-bee1-011188ee68d6/0_3.png",
-    mpid: "682a6978-2b85-42ba-871b-17fd6ae9d140"
+    mpid: "cfd46fcb-a86a-4b22-b9b4-23356522f41b"
   }] as any[];
   return <section id="benefits" className="py-32 px-8 md:px-16 lg:px-24" style={{
     backgroundColor: '#f7f6f2',
