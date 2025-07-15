@@ -283,9 +283,7 @@ export default function FooterSection() {
       }} data-magicpath-id="31" data-magicpath-path="FooterSection.tsx">
           <p className="text-gray-400 text-sm font-normal" style={{
           letterSpacing: '-0.06em'
-        }} data-magicpath-id="32" data-magicpath-path="FooterSection.tsx">
-            © 2024 Sunao. All rights reserved.
-          </p>
+        }} data-magicpath-id="32" data-magicpath-path="FooterSection.tsx">© 2025 Sunao. All rights reserved.</p>
           <div className="flex space-x-8 text-sm" data-magicpath-id="33" data-magicpath-path="FooterSection.tsx">
             <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 font-normal" style={{
             letterSpacing: '-0.06em'
