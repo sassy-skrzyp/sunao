@@ -146,7 +146,9 @@ export default function FeaturesSection() {
                     {/* Icon and Title */}
                     <div className="flex-1 space-y-6" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="19" data-magicpath-path="FeaturesSection.tsx">
                       <div className="flex items-center gap-4" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="20" data-magicpath-path="FeaturesSection.tsx">
-                        <div className="text-pink-500 bg-pink-50 p-3 rounded-xl" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="21" data-magicpath-path="FeaturesSection.tsx">
+                        <div className="text-pink-500 bg-pink-50 p-3 rounded-xl" data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-field="icon:unknown" data-magicpath-id="21" data-magicpath-path="FeaturesSection.tsx" style={{
+                      display: "none"
+                    }}>
                           {feature.icon}
                         </div>
                         <div data-magicpath-uuid={(feature as any)["mpid"] ?? "unsafe"} data-magicpath-id="22" data-magicpath-path="FeaturesSection.tsx">
