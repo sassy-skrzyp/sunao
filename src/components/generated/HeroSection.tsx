@@ -79,7 +79,8 @@ export default function HeroSection() {
           </div>
           
           <motion.button className="text-pink-500 hover:text-pink-600 transition-colors duration-200 font-normal" style={{
-          letterSpacing: '-0.06em'
+          letterSpacing: '-0.06em',
+          fontWeight: "700"
         }} initial={{
           opacity: 0,
           y: -20
