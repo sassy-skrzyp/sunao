@@ -11,10 +11,10 @@ export default function HeroSection() {
     backgroundRepeat: 'no-repeat',
     fontFamily: 'Geist, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     letterSpacing: '-0.06em'
-  }} data-magicpath-id="0" data-magicpath-path="HeroSection.tsx">
+  }}>
       {/* Navigation Bar */}
-      <nav className="w-full px-8 md:px-16 lg:px-24 py-6 relative z-10" data-magicpath-id="1" data-magicpath-path="HeroSection.tsx">
-        <div className="flex items-center justify-between" data-magicpath-id="2" data-magicpath-path="HeroSection.tsx">
+      <nav className="w-full px-8 md:px-16 lg:px-24 py-6 relative z-10">
+        <div className="flex items-center justify-between">
           <motion.div initial={{
           opacity: 0,
           y: -20
@@ -24,13 +24,13 @@ export default function HeroSection() {
         }} transition={{
           duration: 0.6,
           ease: "easeOut"
-        }} data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
+        }}>
             <h2 className="text-xl font-normal text-gray-700" style={{
             letterSpacing: '-0.06em'
-          }} data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">sunao 素直</h2>
+          }}>sunao 素直</h2>
           </motion.div>
           
-          <div className="hidden md:flex items-center space-x-16" data-magicpath-id="5" data-magicpath-path="HeroSection.tsx">
+          <div className="hidden md:flex items-center space-x-16">
             <motion.a href="#features" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" style={{
             letterSpacing: '-0.06em'
           }} initial={{
@@ -43,7 +43,7 @@ export default function HeroSection() {
             duration: 0.6,
             delay: 0.1,
             ease: "easeOut"
-          }} data-magicpath-id="6" data-magicpath-path="HeroSection.tsx">
+          }}>
               Features
             </motion.a>
             <motion.a href="#benefits" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" style={{
@@ -58,7 +58,7 @@ export default function HeroSection() {
             duration: 0.6,
             delay: 0.2,
             ease: "easeOut"
-          }} data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
+          }}>
               Benefits
             </motion.a>
             <motion.a href="#pricing" className="text-gray-600 hover:text-pink-500 transition-colors duration-200 font-normal" style={{
@@ -73,7 +73,7 @@ export default function HeroSection() {
             duration: 0.6,
             delay: 0.3,
             ease: "easeOut"
-          }} data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
+          }}>
               Pricing
             </motion.a>
           </div>
@@ -97,21 +97,21 @@ export default function HeroSection() {
           scale: 0.95
         }} onClick={() => {
           window.open('https://designs.magicpath.ai/v1/fiercely-light-4796', '_blank');
-        }} data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">
+        }}>
             Sign up
           </motion.button>
         </div>
       </nav>
 
       {/* Main Hero Content */}
-      <main className="px-8 md:px-16 lg:px-24 py-8 md:py-12 relative z-10" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">
-        <div className="max-w-7xl mx-auto" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center min-h-[65vh]" data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
+      <main className="px-8 md:px-16 lg:px-24 py-8 md:py-12 relative z-10">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center min-h-[65vh]">
             {/* Left Content */}
             <div className="space-y-12 lg:space-y-16" style={{
             flexDirection: "column",
             display: "block"
-          }} data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
+          }}>
               <motion.h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[0.9] text-black" initial={{
               opacity: 0,
               y: 40
@@ -132,7 +132,7 @@ export default function HeroSection() {
               paddingTop: "0px",
               marginTop: "120px",
               marginBottom: "24px"
-            }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Own <em data-magicpath-id="15" data-magicpath-path="HeroSection.tsx">every</em><br data-magicpath-id="16" data-magicpath-path="HeroSection.tsx" />customer interaction</motion.h1>
+            }}>Own <em>every</em><br />customer interaction</motion.h1>
               
               <motion.div className="space-y-2" initial={{
               opacity: 0,
@@ -146,15 +146,15 @@ export default function HeroSection() {
               ease: "easeOut"
             }} style={{
               marginBottom: "24px"
-            }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
+            }}>
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl font-normal" style={{
                 width: "900px",
                 maxWidth: "900px",
                 lineHeight: "1.5",
                 letterSpacing: '-0.06em'
-              }} data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
+              }}>
                   Generate authentic, professional responses to any customer concern.
-                  <br data-magicpath-id="19" data-magicpath-path="HeroSection.tsx" />
+                  <br />
                   Take control of your customer communications.
                 </p>
               </motion.div>
@@ -177,13 +177,13 @@ export default function HeroSection() {
               y: -2
             }} whileTap={{
               scale: 0.98
-            }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
+            }}>
                 Try it for free
               </motion.button>
             </div>
 
             {/* Right side - Background image handles the illustration */}
-            <div className="relative h-96 lg:h-[500px]" data-magicpath-id="21" data-magicpath-path="HeroSection.tsx">
+            <div className="relative h-96 lg:h-[500px]">
               {/* This space is intentionally left for the background image to show through */}
             </div>
           </div>
