@@ -137,7 +137,8 @@ export default function PricingSection() {
 
                 {/* CTA Button */}
                 <motion.button className={`w-full py-4 rounded-full text-lg font-normal transition-all duration-200 ${plan.popular ? 'bg-pink-500 hover:bg-pink-600 text-white shadow-sm hover:shadow-md' : 'bg-gray-100 hover:bg-gray-200 text-black'}`} style={{
-              letterSpacing: '-0.06em'
+              letterSpacing: '-0.06em',
+              fontWeight: "600"
             }} whileHover={{
               scale: 1.02,
               y: -1
