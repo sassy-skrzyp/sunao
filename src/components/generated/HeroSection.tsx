@@ -160,7 +160,8 @@ export default function HeroSection() {
               </motion.div>
               
               <motion.button className="bg-pink-400 hover:bg-pink-500 text-black px-10 py-4 rounded-full text-lg font-normal transition-all duration-200 shadow-sm hover:shadow-md" style={{
-              letterSpacing: '-0.06em'
+              letterSpacing: '-0.06em',
+              fontWeight: "700"
             }} initial={{
               opacity: 0,
               y: 30
